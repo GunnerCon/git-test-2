@@ -54,18 +54,32 @@ export default class player extends Component{
         // </div>
          
         //     </div>
-        <div className="container">
+        //ex7----------------------
+    //     <div className="container">
+    //     {Players.map((player)=>(
+    //         <div className="column">
+    //         <div className="card">
+    //             <img src={process.env.PUBLIC_URL+player.img}/>
+    //             <h3>{player.name}</h3>
+    //             <p className="title">{player.club}</p>
+    //             <p><button>Detail</button></p>
+    //         </div>
+    //     </div>
+    //     ))}
+    // </div>
+    <div className='container'>
         {Players.map((player)=>(
-            <div className="column">
-            <div className="card">
-                <img src={process.env.PUBLIC_URL+player.img}/>
-                <h3>{player.name}</h3>
-                <p className="title">{player.club}</p>
-                <p><button>Detail</button></p>
-            </div>
-        </div>
+           <div className='column'>
+           <div className='card'>
+           <img src={player.img}/>
+             <h3>{player.name}</h3>
+             <p className='title'>{player.club}</p>
+             <p><button>Detail</button></p>
+           </div>
+         </div>
         ))}
     </div>
+
         )
     }
 }
