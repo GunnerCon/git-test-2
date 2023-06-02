@@ -1,38 +1,17 @@
-.column{
-  display: inline-block;
-  width: 31%;
-  padding: 1%;
-}
-.column button{
-  background-color: black;
-  color: white;
-  width: 100%;
-}
-.column img{
-  width: 100%;
-}
-.footer {
-  width: 100%;
-  background-color: goldenrod;
-  color: white;
-  padding: 5px;
-}
-
-.overlay{
+.overlay {
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0,0.7) ;
+  background: rgba(0, 0, 0, 0.7);
   transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
 }
-.overlay:target{
+.overlay:target {
   visibility: visible;
   opacity: 1;
-
 }
 
 .popup {
@@ -66,6 +45,26 @@
   overflow: auto;
 }
 
+
+.column{
+  display: inline-block;
+  width: 31%;
+  padding: 1%;
+}
+.column button{
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+.column img{
+  width: 100%;
+}
+.footer p{
+  width: 100%;
+  background-color: goldenrod;
+  color: white;
+  padding: 5px;
+}
 
 .App {
   text-align: center;
@@ -106,9 +105,6 @@
   background-color: #ddd;
   color: black;
 }
-.container {
-  border: 10px;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -129,6 +125,10 @@
 
 .App-link {
   color: #61dafb;
+}
+#openPopUp {
+  color: #fff;
+
 }
 
 @keyframes App-logo-spin {

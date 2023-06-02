@@ -11,9 +11,8 @@ export default function PlayersPresentation({players}) {
         <div className='card'>
         <img src={player.img}/>
           <h3>{player.name}</h3>
-          <p className='title'>{player.club}</p>
-          <button onClick={() => {setPlayer(player)}}>
-          <a href='#popup1' id='openPopUp'> Detail</a></button>
+          <p><button onClick={()=>{setPlayer(player)}}>
+            <a href="#popup1" id='openPopUp'>Detail</a></button></p>
         </div>
       </div>
      ))}
