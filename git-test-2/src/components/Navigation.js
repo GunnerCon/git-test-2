@@ -7,14 +7,15 @@ export default function Navigation (){
         return(
           <div className="navigation">
           <nav style={{backgroundColor: theme.backgroundColor, color:theme.color}}>
-              <ul>
+          <ul>
                   <li><a className="active" href="#home" style={{color:theme.color}}>Home</a></li>
                   <li><a href="#news" style={{color:theme.color}}>News</a></li>
                   <li><a href="#about" style={{color:theme.color}}>About</a></li>
                   <li><a href="#contact" style={{color:theme.color}}>Contact</a></li>
-              </ul>
-              <div style={{position: 'relative'}}>
-                  <a className="switch-mode" href="#" onClick={toggle}
+                  </ul>
+                 
+              <div style={{position: 'absolute', top:'10px', right:'15px'}}>
+                     <a className="switch-mode" href="#" onClick={toggle}
                   style={{
                       backgroundColor: theme.backgroundColor,
       color: theme.color,

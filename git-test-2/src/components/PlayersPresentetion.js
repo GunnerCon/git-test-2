@@ -1,5 +1,5 @@
 import React from 'react'
-import player from '../Players'
+//import player from '../Players'
 import { useState } from 'react'
 export default function PlayersPresentation({players}) {
      //console.log(players);
@@ -28,9 +28,7 @@ export default function PlayersPresentation({players}) {
       </div>
 
      </div>
-     
-     
-  
+
      </div>   
   )
 }
