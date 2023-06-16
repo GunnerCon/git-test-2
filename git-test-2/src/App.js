@@ -1,16 +1,17 @@
 
 import './App.css';
+import logo from './logo.svg';
 import Navigation from './components/Navigation';
 import Players from './Players';
 import Main from './components/Main';
-import Footer from './components/Footer';
+import Footer  from './components/Footer';
 import Detail from './components/Detail';
 //import PlayersPresentation from './components/PlayersPresentetion';
 import{Routes,Route} from 'react-router-dom';
 function App(){
   return(
     <div>
-      <Navigation/>
+      <Navigation />
       <Routes>
           <Route path='/' element={<Players/>}> 
       </Route>

@@ -2,12 +2,13 @@ import React from 'react';
 import './App.css';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-// import { BrowerRouter } from  'react-router-dom'
+import M from 'materialize-css';
+import 'materialize-css/dist/css/materialize.min.css';
 import { BrowserRouter } from 'react-router-dom';
+import App from './App';
 // import reportWebVitals from './reportWebVitals';
 import reportWebVitals from './reportWebVitals';
- import { ThemeProvider } from './components/ThemeContext';
+import { ThemeProvider } from './components/ThemeContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
